@@ -45,7 +45,7 @@
                 <a class="nav-link" href="lazer.html">Lazer</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="reservas.html.html"></a>
+                <a class="nav-link" href="reservas.html">Reservas</a>
               </li>
             </ul>
           </div>
@@ -97,7 +97,8 @@
 
 <!-- ============================= fim do carossel ================================== -->
 
-<div class="container-fluid"></div>
+<!-- ===================== inicio container fluid ================================= -->
+<div class="container-fluid fundo-branco">
 
 <div class="row">
     <div class="col">
@@ -114,7 +115,48 @@
             <input type="submit" id="btnreservar" value="Reservar">
         </form>
     </div>
+  </div>
+<div class="row">
+  <div class="col">
+    <h2>Reservas</h2>
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputNome" class="form-label">Nome Completo</label>
+        <input type="text" class="form-control" id="inputNome">
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputemail" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="inputemail">
+      </div>
+
+      <div class="col-4">
+        <label for="inputSuite" class="form-label">Suite</label>
+        <input type="text" class="form-control" id="inputSuite">
+      </div>
+
+<!-- =============== inicio do checkin e checkout ============== -->
+
+      <div class="col-4">
+        <label for="inputSuite" class="form-label">Check-in</label>
+        <input type="text" class="form-control" id="inputSuite">
+      </div>
+
+      <div class="col-4">
+        <label for="inputSuite" class="form-label">Check-out</label>
+        <input type="text" class="form-control" id="inputSuite">
+      </div>
+
+<!-- =============== fim do checkin e checkout ============== -->
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Reservar</button>
+      </div>
+    </form>
+  </div>
 </div>
+</div>
+<!-- =================== fim do container fluid ====================== -->
 
 <!-- ============================== inicio do rodapé =============================== -->
 
