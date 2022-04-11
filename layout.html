@@ -7,13 +7,16 @@
     <title>Hotel  5, menos Estrelas</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
 
     <!-- =================== inicio da barra de navegação ====================== -->
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Menos Estrela</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,10 +48,6 @@
                 <a class="nav-link" href="reservas.html.html"></a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -102,7 +101,7 @@
 
 <div class="row">
     <div class="col">
-        <form>
+        <form id="reservas_superior">
             <label>Faça Uma Reserva Aqui</label>
            <label>check-in:
                  <input type="date" id="checkin" required>
@@ -117,8 +116,39 @@
     </div>
 </div>
 
+<!-- ============================== inicio do rodapé =============================== -->
 
-    <script src="js/bootstrap.min.js"></script>
+<div class="card text-center">
+  <div class="card-header fundo">
+
+
+    <a href="http://www.facebook.com" target="_blank">
+    <i class="bi bi-facebook"></i></a>
+
+    <a href="http://www.instagram.com" target="_blank">
+      <i class="bi bi-instagram"></i></a>
+
+      <a href="http://www.twitter.com" target="_blank">
+        <i class="bi bi-twitter"></i></a>
+      
+        <a href="http://www.youtube.com" target="_blank">
+          <i class="bi bi-youtube"></i></a>
+  </div>
+  <div class="card-body fundo2">
+    <h5 class="card-title">Nossa Localização</h5>
+    <p class="card-text">Rua Gomes, 777,<br>
+    Bom dia - São Paulo - SP - CEP: 777-666 <br>
+    Telefone: +55 (11)12345-6789
+    
+    </p>
+    <a href="https://wa.me/11923456789?text=Ola" class="btn btn-success"><i class="bi bi-whatsapp"> </i>WhatsApp</a>
+  </div>
+</div>
+
+<!-- ============================== fim do rodape =========================================== -->
+
+
+   <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
